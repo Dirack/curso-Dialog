@@ -26,3 +26,7 @@ dialog \
 }
 
 dialog --msgbox "Arquivo teste.txt NÃO removido" 0 0
+
+
+
+

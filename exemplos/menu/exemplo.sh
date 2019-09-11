@@ -15,7 +15,7 @@
 # Licença: GPL-3.0 <https://www.gnu.org/licenses/gpl-3.0.txt>.
 
 
-dialog --menu "Exemplo Menu Dialog" 0 0 0 listar "listar usuários" add adicionar rem remover
+#dialog --menu "Exemplo Menu Dialog" 0 0 0 listar "listar usuários" add adicionar rem remover
 
 ESCOLHA=$( dialog --stdout \
 	--menu "Exemplo interface Dialog" \
