@@ -14,11 +14,12 @@
 # 
 # Licença: GPL-3.0 <https://www.gnu.org/licenses/gpl-3.0.txt>.
 
-NOME=$(dialog --stdout \
-	--inputbox "Digite o seu nome:" \
-	0 0)
+#NOME=$(dialog --stdout \
+#	--inputbox "Digite o seu nome:" \
+#	0 0)
+#
+#dialog --msgbox "Olá $NOME" 0 0
 
-dialog --msgbox "Olá $NOME" 0 0
 
 ARQUIVO=$(dialog --stdout \
 	--inputbox "Digite o nome de um arquivo para buscar:" \
