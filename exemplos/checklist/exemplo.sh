@@ -16,11 +16,11 @@
 
 TAREFAS=$(dialog --stdout \
 	--title "Lista de tarefas" \
+	--separate-output \
 	--checklist "Marque as tarefas finalizadas:" \
 	0 0 0 \
 	"Lavar a louça" "1" on \
 	"Arrumar a cama" "2" off \
 	"Dar banho no cachorro" "3" on)
 
-echo "Vc terminou as seguintes tarefas:"
-echo "$TAREFAS"
+dialog --ok-label "Certo" --title "Vc terminou as seguintes tarefas:" --msgbox "$TAREFAS" 0 0
