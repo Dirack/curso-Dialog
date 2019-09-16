@@ -14,7 +14,15 @@
 # 
 # Licença: GPL-3.0 <https://www.gnu.org/licenses/gpl-3.0.txt>.
 
-dialog \
-	--title "Escolha um arquivo" \
+ARQUIVO=$(dialog --stdout \
+	--title "Escolha um arquivo para editar:" \
 	--fselect ./teste/ \
-	0 0
+	0 0)
+
+[ -f "$ARQUIVO" ] && {
+	gedit "$ARQUIVO" &
+	exit 0
+}
+
+dialog --msgbox "Arquivo NÃO encontrado!" 0 0
+exit 1
