@@ -12,5 +12,5 @@ MENSAGEM="Esta é uma mensagem qualquer a ser exibida na tela do terminal"
 Agora, utilizamos o dialog para gerar uma caixa de diálogo com a mensagem armazenada na variável (a altura da caixa é 20 e a largura 40):
 
 ```sh
-dialog --msgbox "$MENSAGEM_AJUDA" 20 40
+dialog --msgbox "$MENSAGEM" 20 40
 ```
