@@ -25,4 +25,4 @@ sudo apt install dialog
 
 ### Capítulo 1: Caixas de diálogo do Dialog
 
-* [Olá mundo, Dialog!](https://github.com/Geofisicando/curso-Dialog/tree/master/exemplos/olaMundoDialog)
+* [Olá mundo, Dialog!](https://github.com/Geofisicando/curso-Dialog/blob/master/exemplos/olaMundoDialog/README.md#ol%C3%A1-mundo-dialog)
