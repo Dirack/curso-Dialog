@@ -1,6 +1,6 @@
 ## Olá mundo, Dialog!
 
-**:arrow_left: Aula anterior** **[:arrow_up: Voltar para o índice](https://github.com/Geofisicando/curso-Dialog/blob/master/README.md#%C3%ADndice)** **[:arrow_right: Próxima aula](https://github.com/Geofisicando/curso-Dialog/new/master/exemplos/msgbox#msgbox)**
+**:arrow_left: Aula anterior** **[:arrow_up: Voltar para o índice](https://github.com/Geofisicando/curso-Dialog/blob/master/README.md#%C3%ADndice)** **[:arrow_right: Próxima aula](https://github.com/Geofisicando/curso-Dialog/tree/master/exemplos/msgbox#msgbox)**
 
 Iremos apresentar o Dialog, um programa simples que serve para gerar interfaces gráficas de usuário simples no terminal do Shell. Estas caixas de diálogo podem ser utilizadas com Shell Scripts para servir de interface iterativa com o usuário, gerar formulários simples e avisos (veremos tudo isto nas próximas aulas).
 
