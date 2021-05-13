@@ -21,6 +21,8 @@ sudo apt install dialog
 
 * [Documentação site Aurélio](https://aurelio.net/shell/dialog/)
 
-### Índice
+## Índice
+
+### Capítulo 1: Caixas de diálogo do Dialog
 
 * [Olá mundo, Dialog!](https://github.com/Geofisicando/curso-Dialog/tree/master/exemplos/olaMundoDialog)
