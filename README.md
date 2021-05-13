@@ -14,9 +14,13 @@ para que ele responda perguntas ou escolha opções.
 ### Instalação:
 
 ```sh
-sudo apt-get install dialog
+sudo apt install dialog
 ```
 
 ### Documentação:
 
 * [Documentação site Aurélio](https://aurelio.net/shell/dialog/)
+
+### Índice
+
+* [Olá mundo, Dialog!](https://github.com/Geofisicando/curso-Dialog/tree/master/exemplos/olaMundoDialog)
